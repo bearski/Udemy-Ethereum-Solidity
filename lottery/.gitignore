@@ -15,5 +15,10 @@ firebase-debug.log
 *.sln
 *.swp
 
+# ipython notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+
 # some randomness
 *.backup

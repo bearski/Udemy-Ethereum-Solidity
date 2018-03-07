@@ -18,6 +18,7 @@ const deploy = async () => {        // helper to use async-await syntax for depl
     .deploy({ data: bytecode })
     .send({ gas: '1000000', from: accounts[0] })
 
+  console.log(interface)
   console.log('Contact deployed to ', result.options.address)  //Contact deployed to  0x007B4a6e5bbcC52B3bC863b33e87f4457c5C4147
 }
 deploy()
